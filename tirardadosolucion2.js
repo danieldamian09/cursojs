@@ -23,33 +23,33 @@ var dado = document.getElementById('dado');
         
         //verdado.innerText = numero;
         
-        switch (numero == 1){
-        dado.src = 'dado1.png';
-        
+       switch( numero ){
 
-        else if (numero == 2){
+        case 1:
+            dado.src = 'dado1.png';
+            break;
+
+        case 2:
             dado.src = 'dado2.png';
-        }
+            break;
 
-        else if (numero == 3){
+        case 3:
             dado.src = 'dado3.png';
-        }
+            break;
 
-        else if (numero == 4){
+        case 4:
             dado.src = 'dado4.png';
-        }
+            break;
 
-        else if (numero == 5){
+        case 5:
             dado.src = 'dado5.png';
-        }
+            break;
 
-        else{
-
+        default:
             dado.src = 'dado6.png';
 
-        }
+       }
 
-        
         
     }
 
