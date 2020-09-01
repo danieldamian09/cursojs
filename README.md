@@ -1,2 +1,3 @@
 # cursojs
-Este es mi primer proyecto con Github
+
+Mi primer curso de JS
